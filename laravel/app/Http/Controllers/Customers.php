@@ -12,6 +12,7 @@ class Customers extends Controller
         $customers = Customer::all();
         //select  * from product
         return $customers;
+ 
     }
 
     public function getQuantity(){

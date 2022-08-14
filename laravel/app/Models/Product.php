@@ -12,7 +12,7 @@ class Product extends Model
     //Table Name 
     protected $table = 'product';
     public $items = ['Name', 'Stock', 'Price', 'Discount', 'Type' , 'img' ];
- 
+    protected $fillable = ['Type', 'deleted'];
  
 
    
